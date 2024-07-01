@@ -14,6 +14,7 @@
 		9E3D9D102C3327E300F67E43 /* Apple_FrameworksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3D9D0F2C3327E300F67E43 /* Apple_FrameworksTests.swift */; };
 		9E3D9D1A2C3327E300F67E43 /* Apple_FrameworksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3D9D192C3327E300F67E43 /* Apple_FrameworksUITests.swift */; };
 		9E3D9D1C2C3327E300F67E43 /* Apple_FrameworksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3D9D1B2C3327E300F67E43 /* Apple_FrameworksUITestsLaunchTests.swift */; };
+		9E3D9D292C332E3500F67E43 /* FramworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3D9D282C332E3500F67E43 /* FramworkModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		9E3D9D152C3327E300F67E43 /* Apple-FrameworksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Apple-FrameworksUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E3D9D192C3327E300F67E43 /* Apple_FrameworksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_FrameworksUITests.swift; sourceTree = "<group>"; };
 		9E3D9D1B2C3327E300F67E43 /* Apple_FrameworksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_FrameworksUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9E3D9D282C332E3500F67E43 /* FramworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FramworkModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				9E3D9D002C3327E200F67E43 /* ContentView.swift */,
 				9E3D9D022C3327E300F67E43 /* Assets.xcassets */,
 				9E3D9D042C3327E300F67E43 /* Preview Content */,
+				9E3D9D282C332E3500F67E43 /* FramworkModel.swift */,
 			);
 			path = "Apple-Frameworks";
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E3D9D012C3327E200F67E43 /* ContentView.swift in Sources */,
+				9E3D9D292C332E3500F67E43 /* FramworkModel.swift in Sources */,
 				9E3D9CFF2C3327E200F67E43 /* Apple_FrameworksApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
