@@ -1,14 +1,14 @@
 //
-//  FrameworksTests.swift
-//  FrameworksTests
+//  Apple_FrameworksTests.swift
+//  Apple-FrameworksTests
 //
 //  Created by Sebastian Pucher on 7/1/24.
 //
 
 import XCTest
-@testable import Frameworks
+@testable import Apple_Frameworks
 
-final class FrameworksTests: XCTestCase {
+final class Apple_FrameworksTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

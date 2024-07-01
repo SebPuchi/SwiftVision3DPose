@@ -1,13 +1,13 @@
 //
-//  FrameworksUITestsLaunchTests.swift
-//  FrameworksUITests
+//  Apple_FrameworksUITestsLaunchTests.swift
+//  Apple-FrameworksUITests
 //
 //  Created by Sebastian Pucher on 7/1/24.
 //
 
 import XCTest
 
-final class FrameworksUITestsLaunchTests: XCTestCase {
+final class Apple_FrameworksUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
