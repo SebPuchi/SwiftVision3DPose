@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		9E3D9CFF2C3327E200F67E43 /* Apple_FrameworksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3D9CFE2C3327E200F67E43 /* Apple_FrameworksApp.swift */; };
-		9E3D9D012C3327E200F67E43 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3D9D002C3327E200F67E43 /* ContentView.swift */; };
 		9E3D9D032C3327E300F67E43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E3D9D022C3327E300F67E43 /* Assets.xcassets */; };
 		9E3D9D062C3327E300F67E43 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E3D9D052C3327E300F67E43 /* Preview Assets.xcassets */; };
 		9E3D9D102C3327E300F67E43 /* Apple_FrameworksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3D9D0F2C3327E300F67E43 /* Apple_FrameworksTests.swift */; };
 		9E3D9D1A2C3327E300F67E43 /* Apple_FrameworksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3D9D192C3327E300F67E43 /* Apple_FrameworksUITests.swift */; };
 		9E3D9D1C2C3327E300F67E43 /* Apple_FrameworksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3D9D1B2C3327E300F67E43 /* Apple_FrameworksUITestsLaunchTests.swift */; };
 		9E3D9D292C332E3500F67E43 /* FramworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3D9D282C332E3500F67E43 /* FramworkModel.swift */; };
+		9E3D9D2B2C33310B00F67E43 /* FrameworkGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3D9D2A2C33310B00F67E43 /* FrameworkGridView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,6 @@
 /* Begin PBXFileReference section */
 		9E3D9CFB2C3327E200F67E43 /* Apple-Frameworks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apple-Frameworks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E3D9CFE2C3327E200F67E43 /* Apple_FrameworksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_FrameworksApp.swift; sourceTree = "<group>"; };
-		9E3D9D002C3327E200F67E43 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9E3D9D022C3327E300F67E43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E3D9D052C3327E300F67E43 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9E3D9D0B2C3327E300F67E43 /* Apple-FrameworksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Apple-FrameworksTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +45,7 @@
 		9E3D9D192C3327E300F67E43 /* Apple_FrameworksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_FrameworksUITests.swift; sourceTree = "<group>"; };
 		9E3D9D1B2C3327E300F67E43 /* Apple_FrameworksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_FrameworksUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		9E3D9D282C332E3500F67E43 /* FramworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FramworkModel.swift; sourceTree = "<group>"; };
+		9E3D9D2A2C33310B00F67E43 /* FrameworkGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,11 +96,11 @@
 		9E3D9CFD2C3327E200F67E43 /* Apple-Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9E3D9D2A2C33310B00F67E43 /* FrameworkGridView.swift */,
 				9E3D9CFE2C3327E200F67E43 /* Apple_FrameworksApp.swift */,
-				9E3D9D002C3327E200F67E43 /* ContentView.swift */,
+				9E3D9D282C332E3500F67E43 /* FramworkModel.swift */,
 				9E3D9D022C3327E300F67E43 /* Assets.xcassets */,
 				9E3D9D042C3327E300F67E43 /* Preview Content */,
-				9E3D9D282C332E3500F67E43 /* FramworkModel.swift */,
 			);
 			path = "Apple-Frameworks";
 			sourceTree = "<group>";
@@ -260,7 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E3D9D012C3327E200F67E43 /* ContentView.swift in Sources */,
+				9E3D9D2B2C33310B00F67E43 /* FrameworkGridView.swift in Sources */,
 				9E3D9D292C332E3500F67E43 /* FramworkModel.swift in Sources */,
 				9E3D9CFF2C3327E200F67E43 /* Apple_FrameworksApp.swift in Sources */,
 			);
