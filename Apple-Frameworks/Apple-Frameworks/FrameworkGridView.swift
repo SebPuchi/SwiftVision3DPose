@@ -8,11 +8,22 @@
 import SwiftUI
 
 struct FrameworkGridView: View {
+    
+    let Columns: [GridItem] = [GridItem(.flexible()),
+                               GridItem(.flexible()),
+                               GridItem(.flexible())]
     var body: some View {
-        ZStack {
+        LazyVGrid(columns: Columns) {
             FrameworkTitleView(name: "App Clips", imageName: "app-clip")
+            FrameworkTitleView(name: "App Clips", imageName: "app-clip")
+
+            FrameworkTitleView(name: "App Clips", imageName: "app-clip")
+
             
         }
+        
+            
+     
     }
 }
 
