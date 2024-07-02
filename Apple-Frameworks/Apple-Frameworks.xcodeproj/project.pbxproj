@@ -16,6 +16,7 @@
 		9E3D9D292C332E3500F67E43 /* FramworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3D9D282C332E3500F67E43 /* FramworkModel.swift */; };
 		9E3D9D2B2C33310B00F67E43 /* FrameworkGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3D9D2A2C33310B00F67E43 /* FrameworkGridView.swift */; };
 		9E3D9D2D2C333BC400F67E43 /* FrameWorkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3D9D2C2C333BC400F67E43 /* FrameWorkDetailView.swift */; };
+		9E3D9D2F2C347BEE00F67E43 /* FrameworkGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3D9D2E2C347BEE00F67E43 /* FrameworkGridViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		9E3D9D282C332E3500F67E43 /* FramworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FramworkModel.swift; sourceTree = "<group>"; };
 		9E3D9D2A2C33310B00F67E43 /* FrameworkGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridView.swift; sourceTree = "<group>"; };
 		9E3D9D2C2C333BC400F67E43 /* FrameWorkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameWorkDetailView.swift; sourceTree = "<group>"; };
+		9E3D9D2E2C347BEE00F67E43 /* FrameworkGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				9E3D9CFE2C3327E200F67E43 /* Apple_FrameworksApp.swift */,
 				9E3D9D282C332E3500F67E43 /* FramworkModel.swift */,
 				9E3D9D2C2C333BC400F67E43 /* FrameWorkDetailView.swift */,
+				9E3D9D2E2C347BEE00F67E43 /* FrameworkGridViewModel.swift */,
 				9E3D9D022C3327E300F67E43 /* Assets.xcassets */,
 				9E3D9D042C3327E300F67E43 /* Preview Content */,
 			);
@@ -267,6 +270,7 @@
 				9E3D9D2B2C33310B00F67E43 /* FrameworkGridView.swift in Sources */,
 				9E3D9D292C332E3500F67E43 /* FramworkModel.swift in Sources */,
 				9E3D9CFF2C3327E200F67E43 /* Apple_FrameworksApp.swift in Sources */,
+				9E3D9D2F2C347BEE00F67E43 /* FrameworkGridViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,6 +9,8 @@ import SwiftUI
 
 struct FrameworkGridView: View {
     
+    @StateObject var viewModel = FrameworkGridViewModel()
+    
     let Columns: [GridItem] = [GridItem(.flexible()),
                                GridItem(.flexible()),
                                GridItem(.flexible())]
@@ -17,7 +19,8 @@ struct FrameworkGridView: View {
             ScrollView {
                 LazyVGrid(columns: Columns) {
                     ForEach(MockData.frameworks) { framework in
-                        FrameworkTitleView(framework: framework).onTapGesture {
+                        FrameworkTitleView(framework: framework)
+                            .onTapGesture {
                             print("")
                         }
                         
