@@ -43,9 +43,10 @@ struct FrameWorkDetailView: View {
                     .frame(width: 280, height: 50)
                     .background(Color.red)
                     .foregroundStyle(Color.white)
-                    .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+
                 
-            }
+            }.buttonStyle(.bordered)
+                .controlSize(.large)
         }
     }
 }
