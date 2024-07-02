@@ -31,7 +31,7 @@ struct FrameworkGridView: View {
                 
             }.navigationTitle("Frameworks")
                 .sheet(isPresented: $viewModel.isShowingDetailView, content: {
-                    FrameWorkDetailView(framework: viewModel.selectedFramework!)
+                    FrameWorkDetailView(framework: viewModel.selectedFramework!, isShowingDetailView: $viewModel.isShowingDetailView)
                 })
         })
 

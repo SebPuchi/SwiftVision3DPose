@@ -9,6 +9,7 @@ import SwiftUI
 
 struct FrameWorkDetailView: View {
     var framework: FrameworkModel
+    @Binding var isShowingDetailView: Bool
     
     var body: some View {
         VStack {
@@ -16,6 +17,7 @@ struct FrameWorkDetailView: View {
             HStack {
                 Spacer()
                 Button {
+                    isShowingDetailView = false
                     
                     
                 } label: {
