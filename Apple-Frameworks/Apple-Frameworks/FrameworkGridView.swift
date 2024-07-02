@@ -21,7 +21,8 @@ struct FrameworkGridView: View {
                     ForEach(MockData.frameworks) { framework in
                         FrameworkTitleView(framework: framework)
                             .onTapGesture {
-                            print("")
+                                viewModel.selectedFramework = framework
+                                
                         }
                         
                     }
@@ -29,6 +30,9 @@ struct FrameworkGridView: View {
                 }
                 
             }.navigationTitle("Frameworks")
+                .sheet(isPresented: $viewModel.isShowingDetailView, content: {
+                    FrameWorkDetailView(framework: viewModel.selectedFramework!)
+                })
         })
 
     }
