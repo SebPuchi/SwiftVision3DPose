@@ -13,18 +13,21 @@ struct FrameworkGridView: View {
                                GridItem(.flexible()),
                                GridItem(.flexible())]
     var body: some View {
-        LazyVGrid(columns: Columns) {
-            
-            ForEach(MockData.frameworks) { framework in
-                FrameworkTitleView(framework: framework)
+        NavigationView(content: {
+            ScrollView {
+                LazyVGrid(columns: Columns) {
+                    ForEach(MockData.frameworks) { framework in
+                        FrameworkTitleView(framework: framework).onTapGesture {
+                            print("")
+                        }
+                        
+                    }
+                    
+                }
                 
-            }
-           
-            
-        }
-        
-            
-     
+            }.navigationTitle("Frameworks")
+        })
+
     }
 }
 
@@ -41,7 +44,7 @@ struct FrameworkTitleView: View {
                     .fontWeight(.semibold)
                     .scaledToFit()
                     .minimumScaleFactor(0.6)
-            }
+            }.padding()
             
     }
 }
