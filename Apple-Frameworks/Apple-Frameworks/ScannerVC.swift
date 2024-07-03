@@ -20,15 +20,27 @@ class VideoFoundation {
     
     init() {
         captureSession.beginConfiguration()
-        let videoDevice = AVCaptureDevice.default(.builtInWideAngleCamera,
-                                                  for: .video, position: .unspecified)
+        let videoDevice = detectBackCamera()
         guard
-            let videoDeviceInput = try? AVCaptureDeviceInput(device: videoDevice!),
+            let videoDeviceInput = try? AVCaptureDeviceInput(device: videoDevice),
             captureSession.canAddInput(videoDeviceInput)
             else { return }
         captureSession.addInput(videoDeviceInput)
         
     }
+    
+
+
+    func detectBackCamera() -> AVCaptureDevice {
+        if let device = AVCaptureDevice.default(.builtInDualCamera, for: .video, position: .back) {
+            return device
+        } else if let device = AVCaptureDevice.default(.builtInWideAngleCamera, for: .video, position: .back) {
+            return device
+        } else {
+            fatalError("Missing expected back camera device.")
+        }
+    }
+
     
     
     var isAuthorized: Bool {
