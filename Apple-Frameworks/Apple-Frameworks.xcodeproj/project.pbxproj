@@ -14,6 +14,7 @@
 		9E3D9D1A2C3327E300F67E43 /* Apple_FrameworksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3D9D192C3327E300F67E43 /* Apple_FrameworksUITests.swift */; };
 		9E3D9D1C2C3327E300F67E43 /* Apple_FrameworksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3D9D1B2C3327E300F67E43 /* Apple_FrameworksUITestsLaunchTests.swift */; };
 		9E3D9D312C35B60700F67E43 /* BarcodeScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3D9D302C35B60700F67E43 /* BarcodeScannerView.swift */; };
+		9E3D9D332C35BECB00F67E43 /* ScannerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3D9D322C35BECB00F67E43 /* ScannerVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		9E3D9D192C3327E300F67E43 /* Apple_FrameworksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_FrameworksUITests.swift; sourceTree = "<group>"; };
 		9E3D9D1B2C3327E300F67E43 /* Apple_FrameworksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_FrameworksUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		9E3D9D302C35B60700F67E43 /* BarcodeScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScannerView.swift; sourceTree = "<group>"; };
+		9E3D9D322C35BECB00F67E43 /* ScannerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				9E3D9D302C35B60700F67E43 /* BarcodeScannerView.swift */,
 				9E3D9D022C3327E300F67E43 /* Assets.xcassets */,
 				9E3D9D042C3327E300F67E43 /* Preview Content */,
+				9E3D9D322C35BECB00F67E43 /* ScannerVC.swift */,
 			);
 			path = "Apple-Frameworks";
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E3D9D332C35BECB00F67E43 /* ScannerVC.swift in Sources */,
 				9E3D9D312C35B60700F67E43 /* BarcodeScannerView.swift in Sources */,
 				9E3D9CFF2C3327E200F67E43 /* Apple_FrameworksApp.swift in Sources */,
 			);
@@ -347,6 +351,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -404,6 +409,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -424,6 +430,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Apple-Frameworks/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Use Camera?";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -452,6 +459,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Apple-Frameworks/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Use Camera?";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
