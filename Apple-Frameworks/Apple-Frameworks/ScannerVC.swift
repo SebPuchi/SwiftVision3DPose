@@ -27,6 +27,12 @@ class VideoFoundation {
             else { return }
         captureSession.addInput(videoDeviceInput)
         
+        let videoOutput = AVCaptureMovieFileOutput()
+        guard captureSession.canAddOutput(videoOutput) else { return }
+        captureSession.sessionPreset = .high
+        captureSession.addOutput(videoOutput)
+        captureSession.commitConfiguration()
+        
     }
     
 
