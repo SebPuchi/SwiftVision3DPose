@@ -13,7 +13,11 @@ import AVFoundation
 
 import AVFoundation
 
-class VideoFoundation {
+
+protocol VideoFoudationDelegate: AnyObject {}
+
+
+final class VideoFoundation: UIViewController {
     
     // Create the capture session.
     let captureSession = AVCaptureSession()

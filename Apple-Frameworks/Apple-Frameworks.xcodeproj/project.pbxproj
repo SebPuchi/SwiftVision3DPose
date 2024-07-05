@@ -15,6 +15,7 @@
 		9E3D9D1C2C3327E300F67E43 /* Apple_FrameworksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3D9D1B2C3327E300F67E43 /* Apple_FrameworksUITestsLaunchTests.swift */; };
 		9E3D9D312C35B60700F67E43 /* BarcodeScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3D9D302C35B60700F67E43 /* BarcodeScannerView.swift */; };
 		9E3D9D332C35BECB00F67E43 /* ScannerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3D9D322C35BECB00F67E43 /* ScannerVC.swift */; };
+		9E3D9D352C35E89600F67E43 /* CameraPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3D9D342C35E89600F67E43 /* CameraPreviewView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		9E3D9D1B2C3327E300F67E43 /* Apple_FrameworksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_FrameworksUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		9E3D9D302C35B60700F67E43 /* BarcodeScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScannerView.swift; sourceTree = "<group>"; };
 		9E3D9D322C35BECB00F67E43 /* ScannerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerVC.swift; sourceTree = "<group>"; };
+		9E3D9D342C35E89600F67E43 /* CameraPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreviewView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,9 +100,10 @@
 			children = (
 				9E3D9CFE2C3327E200F67E43 /* Apple_FrameworksApp.swift */,
 				9E3D9D302C35B60700F67E43 /* BarcodeScannerView.swift */,
+				9E3D9D322C35BECB00F67E43 /* ScannerVC.swift */,
 				9E3D9D022C3327E300F67E43 /* Assets.xcassets */,
 				9E3D9D042C3327E300F67E43 /* Preview Content */,
-				9E3D9D322C35BECB00F67E43 /* ScannerVC.swift */,
+				9E3D9D342C35E89600F67E43 /* CameraPreviewView.swift */,
 			);
 			path = "Apple-Frameworks";
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E3D9D352C35E89600F67E43 /* CameraPreviewView.swift in Sources */,
 				9E3D9D332C35BECB00F67E43 /* ScannerVC.swift in Sources */,
 				9E3D9D312C35B60700F67E43 /* BarcodeScannerView.swift in Sources */,
 				9E3D9CFF2C3327E200F67E43 /* Apple_FrameworksApp.swift in Sources */,
