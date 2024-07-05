@@ -13,10 +13,9 @@
 		9E3D9D102C3327E300F67E43 /* Apple_FrameworksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3D9D0F2C3327E300F67E43 /* Apple_FrameworksTests.swift */; };
 		9E3D9D1A2C3327E300F67E43 /* Apple_FrameworksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3D9D192C3327E300F67E43 /* Apple_FrameworksUITests.swift */; };
 		9E3D9D1C2C3327E300F67E43 /* Apple_FrameworksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3D9D1B2C3327E300F67E43 /* Apple_FrameworksUITestsLaunchTests.swift */; };
-		9E3D9D292C332E3500F67E43 /* FramworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3D9D282C332E3500F67E43 /* FramworkModel.swift */; };
-		9E3D9D2B2C33310B00F67E43 /* FrameworkGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3D9D2A2C33310B00F67E43 /* FrameworkGridView.swift */; };
-		9E3D9D2D2C333BC400F67E43 /* FrameWorkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3D9D2C2C333BC400F67E43 /* FrameWorkDetailView.swift */; };
-		9E3D9D2F2C347BEE00F67E43 /* FrameworkGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3D9D2E2C347BEE00F67E43 /* FrameworkGridViewModel.swift */; };
+		9E3D9D312C35B60700F67E43 /* BarcodeScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3D9D302C35B60700F67E43 /* BarcodeScannerView.swift */; };
+		9E3D9D332C35BECB00F67E43 /* ScannerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3D9D322C35BECB00F67E43 /* ScannerVC.swift */; };
+		9E3D9D352C35E89600F67E43 /* CameraPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3D9D342C35E89600F67E43 /* CameraPreviewView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,10 +45,9 @@
 		9E3D9D152C3327E300F67E43 /* Apple-FrameworksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Apple-FrameworksUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E3D9D192C3327E300F67E43 /* Apple_FrameworksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_FrameworksUITests.swift; sourceTree = "<group>"; };
 		9E3D9D1B2C3327E300F67E43 /* Apple_FrameworksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_FrameworksUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		9E3D9D282C332E3500F67E43 /* FramworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FramworkModel.swift; sourceTree = "<group>"; };
-		9E3D9D2A2C33310B00F67E43 /* FrameworkGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridView.swift; sourceTree = "<group>"; };
-		9E3D9D2C2C333BC400F67E43 /* FrameWorkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameWorkDetailView.swift; sourceTree = "<group>"; };
-		9E3D9D2E2C347BEE00F67E43 /* FrameworkGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridViewModel.swift; sourceTree = "<group>"; };
+		9E3D9D302C35B60700F67E43 /* BarcodeScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScannerView.swift; sourceTree = "<group>"; };
+		9E3D9D322C35BECB00F67E43 /* ScannerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerVC.swift; sourceTree = "<group>"; };
+		9E3D9D342C35E89600F67E43 /* CameraPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreviewView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,13 +98,12 @@
 		9E3D9CFD2C3327E200F67E43 /* Apple-Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9E3D9D2A2C33310B00F67E43 /* FrameworkGridView.swift */,
 				9E3D9CFE2C3327E200F67E43 /* Apple_FrameworksApp.swift */,
-				9E3D9D282C332E3500F67E43 /* FramworkModel.swift */,
-				9E3D9D2C2C333BC400F67E43 /* FrameWorkDetailView.swift */,
-				9E3D9D2E2C347BEE00F67E43 /* FrameworkGridViewModel.swift */,
+				9E3D9D302C35B60700F67E43 /* BarcodeScannerView.swift */,
+				9E3D9D322C35BECB00F67E43 /* ScannerVC.swift */,
 				9E3D9D022C3327E300F67E43 /* Assets.xcassets */,
 				9E3D9D042C3327E300F67E43 /* Preview Content */,
+				9E3D9D342C35E89600F67E43 /* CameraPreviewView.swift */,
 			);
 			path = "Apple-Frameworks";
 			sourceTree = "<group>";
@@ -266,11 +263,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E3D9D2D2C333BC400F67E43 /* FrameWorkDetailView.swift in Sources */,
-				9E3D9D2B2C33310B00F67E43 /* FrameworkGridView.swift in Sources */,
-				9E3D9D292C332E3500F67E43 /* FramworkModel.swift in Sources */,
+				9E3D9D352C35E89600F67E43 /* CameraPreviewView.swift in Sources */,
+				9E3D9D332C35BECB00F67E43 /* ScannerVC.swift in Sources */,
+				9E3D9D312C35B60700F67E43 /* BarcodeScannerView.swift in Sources */,
 				9E3D9CFF2C3327E200F67E43 /* Apple_FrameworksApp.swift in Sources */,
-				9E3D9D2F2C347BEE00F67E43 /* FrameworkGridViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +355,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -416,6 +413,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -436,6 +434,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Apple-Frameworks/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Use Camera?";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -464,6 +463,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Apple-Frameworks/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Use Camera?";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
